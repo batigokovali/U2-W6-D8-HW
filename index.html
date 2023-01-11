@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Batı's Travel Agency</title>
+  </head>
+  <body>
+    <div class="container navbar-container px-0">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="navbar-image"
+            src="https://logos-world.net/wp-content/uploads/2020/05/Skyrim-Logo.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#deals-of-the-week"
+                >Deals of the Week</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#welcome-summer">Welcome Summer!</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#deal-of-the-day">Deal of the Day</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#last-minute">Last Minute</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#customer-reviews">Customer Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container jumbotron">
+      <div class="jumbotron bg-transparent">
+        <h1 class="display-4 text-white">Hello, proud Nords!</h1>
+        <p class="lead text-white">
+          This is the best travel agency in the whole Tamriel! Join for an
+          unforgettable voyage with us!
+        </p>
+      </div>
+    </div>
+
+    <div class="container deals-of-the-week" id="deals-of-the-week">
+      <nav class="navbar navbar-light d-flex">
+        <a class="navbar-brand" href="#">Deals of the Week</a>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseDealsOfTheWeek"
+          aria-expanded="false"
+          aria-controls="collapseDealsOfTheWeek"
+        >
+          Collapse
+        </button>
+      </nav>
+
+      <div
+        id="collapseDealsOfTheWeek"
+        class="row justify-content-between justify-content-center collapse show"
+      >
+        <div class="col-sm-6 col-md-4 col-lg-3 img-fluid" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/2/28/SR-place-Markarth.jpg/800px-SR-place-Markarth.jpg"
+            style="height: 250px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Markath</h5>
+            <p class="card-text">
+              It is housed in an ancient Dwemer city, giving it architecture
+              noticeably different from most cities in Skyrim. Much of the city
+              is carved into the rock face which surrounds it. Jarl Igmund is
+              the ruler of the Reach. He is having issues with a group known as
+              the Forsworn.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 img-fluid" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/a/ad/SR-place-Riften.jpg/800px-SR-place-Riften.jpg"
+            style="height: 250px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Riften</h5>
+            <p class="card-text">
+              Riften is the capital city of the Rift, located in the southeast
+              corner of the hold. The city lies near the borders of both
+              Morrowind and Cyrodiil, and is home to the Thieves Guild, who
+              inhabit the sewers beneath Riften known as the Ratway.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 img-fluid" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/6/69/SR-place-Solitude.jpg/800px-SR-place-Solitude.jpg"
+            style="height: 250px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Solitude</h5>
+            <p class="card-text">
+              Solitude is a major city located in Haafingar on the northwestern
+              shore of Skyrim. In addition to being the largest city in all of
+              Skyrim, it is also the capital of the province and seat of the
+              High King of Skyrim.
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-sm-6 col-md-4 col-lg-3 img-fluid h-100"
+          style="width: 18rem"
+        >
+          <img
+            src="https://images.uesp.net/thumb/b/b7/SR-place-Windhelm.jpg/800px-SR-place-Windhelm.jpg"
+            style="height: 250px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Windhelm</h5>
+            <p class="card-text">
+              Windhelm is a major city in Eastmarch, located near the Dunmeth
+              Pass to Morrowind in northeastern Skyrim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container welcome-summer shadow-lg p-3 mb-5 rounded"
+      id="welcome-summer"
+    >
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">Welcome Summer!</a>
+      </nav>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/d/d4/SR-place-Understone_Keep.jpg/800px-SR-place-Understone_Keep.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Understone Keep</h5>
+            <p class="card-text">
+              Understone Keep is an ancient Dwarven keep built into the
+              mountainside, used as a palace by the Jarl of Markarth.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/b/b2/SR-place-Mistveil_Keep.jpg/800px-SR-place-Mistveil_Keep.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mistveil Keep</h5>
+            <p class="card-text">
+              Mistveil Keep is a castle located at the southern end of Riften.
+              Its grand stone walls stand out from Riften's wooden buildings and
+              walkways, and also serve as an extra layer of protection in times
+              of conflict.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/7/74/SR-place-Thieves_Guild_Secret_Entrance.jpg/800px-SR-place-Thieves_Guild_Secret_Entrance.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Thieves Guild</h5>
+            <p class="card-text">
+              The Thieves Guild is the headquarters of the Thieves Guild located
+              with the sewers beneath Riften, known as The Ratway.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/b/ba/SR-place-Blue_Palace.jpg/800px-SR-place-Blue_Palace.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Blue Palace</h5>
+            <p class="card-text">
+              The Blue Palace is the current seat of power for Solitude,
+              Haafingar, and Skyrim; and home to the High King of Skyrim.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/0/0e/SR-place-Dragonsreach.jpg/800px-SR-place-Dragonsreach.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dragonsreach</h5>
+            <p class="card-text">
+              Dragonsreach is the residence of the jarl of Whiterun Hold, the
+              hold's seat of political power, and the location of the hold's
+              jail.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/2/24/SR-place-Palace_of_the_Kings.jpg/800px-SR-place-Palace_of_the_Kings.jpg"
+            style="height: 150px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Palace of the Kings</h5>
+            <p class="card-text">
+              The Palace of the Kings is a large castle at the far end of the
+              Valunstrad district in Windhelm. It is home to the hold's Jarl,
+              Ulfric Stormcloak, and headquarters of the Stormcloaks movement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container deal-of-the-day d-sm-none d-md-block"
+      id="deal-of-the-day"
+    >
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">Deal of the Day</a>
+      </nav>
+      <div class="row">
+        <div class="col-8" style="width: 18rem">
+          <img
+            src="https://staticdelivery.nexusmods.com/images/1704/617135-1557419576.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+        </div>
+        <div class="col-4">
+          <p class="card-text">Whiterun City</p>
+          <p class="card-text">Date: Every 3rd of November</p>
+          <p class="card-text">Price: 300 Gold and 2 Unusual Gems</p>
+          <p>
+            Whiterun is the capital city of Whiterun Hold, in the center of
+            Skyrim. In Whiterun, Nords live in the 'traditional' manner: their
+            lives are simple, harsh, and rooted in ancient ideas. Even the
+            city's fortifications—wooden and stone palisade walls and the sheer
+            defensive advantage offered by its position on a large bluff that
+            raises the city above the surrounding tundra—are archaic by
+            contemporary standards.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container last-minute" id="last-minute">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">Last Minute</a>
+      </nav>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.wikia.nocookie.net%2F__cb20120124105510%2Felderscrolls%2Fimages%2Ff%2Fff%2FShearpoint.png&f=1&nofb=1&ipt=2e860e6fac0746bc351f9deabd6185a1b67c3cee8736dcd97370ee9c5007b68e&ipo=images"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/f/f0/SR-place-Dark_Brotherhood_Sanctuary.jpg/800px-SR-place-Dark_Brotherhood_Sanctuary.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/c/cc/SR-place-Morthal.jpg/800px-SR-place-Morthal.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/4/43/SR-place-Raven_Rock.jpg/800px-SR-place-Raven_Rock.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://images.uesp.net/thumb/7/72/SR-place-Winterhold.jpg/800px-SR-place-Winterhold.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2" style="width: 18rem">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg1.wikia.nocookie.net%2F__cb20120124105510%2Felderscrolls%2Fimages%2Ff%2Fff%2FShearpoint.png&f=1&nofb=1&ipt=2e860e6fac0746bc351f9deabd6185a1b67c3cee8736dcd97370ee9c5007b68e&ipo=images"
+            class="card-img-top"
+            alt="..."
+            style="height: 150px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container testimonial" id="customer-reviews">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">Customer Reviews</a>
+      </nav>
+
+      <div class="row d-flex justify-content-between">
+        <div class="col-sm-6 col-md-4 col-lg-3" style="width: 18rem">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.dvubdOicuXrRll_IMmnm4QAAAA%26pid%3DApi&f=1&ipt=f7234576ae059382cdf4c9e09572c7857c037acb49be67cb66166e9148b6e98c&ipo=images"
+            class="card-img-top"
+            alt="..."
+            style="height: 300px; object-position: -25px 0px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Barlgruuf the Greater</h5>
+            <p class="card-text">
+              "If it's the war you're referring to, I'm on the side of
+              Whiterun."
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3" style="width: 18rem">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EzmGL7-WqSGNTYtto16DzgHaGY%26pid%3DApi&f=1&ipt=ec5c3f622d16cd18b6842f9c63de1816eb84a6745a51ec04f9de61d4ad3aaf9a&ipo=images"
+            class="card-img-top"
+            alt="..."
+            style="height: 300px; object-position: -25px 0px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Aela the Huntress</h5>
+            <p class="card-text">
+              "Something has shifted in the moons, brother."
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3" style="width: 18rem">
+          <img
+            src="https://vignette.wikia.nocookie.net/elderscrolls/images/b/bd/Paarthurnax_(Skyrim).jpg/revision/latest?cb=20171206204239&path-prefix=pl"
+            class="card-img-top"
+            alt="..."
+            style="height: 300px; object-position: -90px 0px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Paarthurnax</h5>
+            <p class="card-text">
+              "What is better - to be born good, or to overcome your evil nature
+              through great effort?"
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3" style="width: 18rem">
+          <img
+            src="https://img00.deviantart.net/ef3a/i/2013/138/e/3/j_zargo_by_swept_wing_racer-d65nl1w.jpg"
+            class="card-img-top"
+            alt="..."
+            style="height: 300px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">J'Zargo</h5>
+            <p class="card-text">
+              "Then what are we waiting for? Let's get started!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header d-flex justify-content-around">
+        <p>
+          <i class="bi bi-c-circle"></i> 2023 - Thieves Guild Travelling Agency
+        </p>
+        <button
+          type="button"
+          class="btn btn-dark"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          Contact Us
+        </button>
+        <p id="travel-counter"></p>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Thanks for choosing us!
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            You can reach us from
+            <a
+              href="https://github.com/batigokovali/U2-W6-D8-HW"
+              target="_blank"
+              >this link.</a
+            >
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
